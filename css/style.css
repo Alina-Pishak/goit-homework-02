@@ -17,21 +17,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--color-primary);
+    color: var(--color-secondary);
     background-color: var(--color-background);
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
 }
 
 .list {
@@ -48,6 +35,8 @@ body {
     font-size: 18px;
     line-height: 1.17;
     color: var(--color-logo);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 /* HEADER */
@@ -69,16 +58,19 @@ body {
     color: var(--color-hover-link);
 }
 
+
+
 .header-mail {
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
     color: var(--color-secondary);
 }
 
 .header-mail:hover,
-.header-mail:hover {
+.header-mail:focus {
     color: var(--color-hover-link);
 }
 
@@ -87,11 +79,12 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
     color: var(--color-secondary);
 }
 
 .header-phone:hover,
-.header-phone:hover {
+.header-phone:focus {
     color: var(--color-hover-link);
 }
 
