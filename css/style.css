@@ -1,6 +1,6 @@
 :root {
-    --color-primary: #2E2F42;
-    --color-secondary: #434455;
+    --color-primary: #434455;
+    --color-secondary: #2E2F42;
     --color-action: #4D5AE5;
     --color-brand: #2E2F42;
     --color-brand-light: #F4F4FD;
@@ -17,7 +17,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    color: var(--color-secondary);
+    color: var(--color-primary);
     background-color: var(--color-background);
 }
 
@@ -50,7 +50,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-primary);
+    color: var(--color-secondary);
 }
 
 .header-link:focus,
@@ -66,7 +66,18 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-style: normal;
-    color: var(--color-secondary);
+    color: var(--color-primary);
+}
+
+.header-adress {
+    font-style: normal;
+}
+
+.header-mail {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--color-primary);
 }
 
 .header-mail:hover,
@@ -75,12 +86,10 @@ body {
 }
 
 .header-phone {
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
-    color: var(--color-secondary);
+    color: var(--color-primary);
 }
 
 .header-phone:hover,
@@ -128,13 +137,13 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--color-secondary);
 }
 
 .fetures-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-secondary);
 }
 
 /* ABOUT */
@@ -145,6 +154,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--color-secondary);
 }
 
 /* TEAM */
@@ -159,6 +169,7 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--color-secondary);
 }
 
 .team-item {
@@ -171,6 +182,7 @@ body {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
+    color: var(--color-secondary);
 }
 
 .team-text {
@@ -178,7 +190,6 @@ body {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--color-secondary);
 }
 
 /* PORTFOLIO */
@@ -214,7 +225,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-secondary);
 }
 
 /* FOOTEER */
