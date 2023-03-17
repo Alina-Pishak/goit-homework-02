@@ -58,44 +58,24 @@ body {
     color: var(--color-hover-link);
 }
 
-
-
-.header-mail {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-style: normal;
-    color: var(--color-primary);
-}
-
 .header-adress {
     font-style: normal;
 }
 
-.header-mail {
+.header-contact {
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
     color: var(--color-primary);
 }
 
-.header-mail:hover,
-.header-mail:focus {
+.header-contact:hover,
+.header-contact:focus {
     color: var(--color-hover-link);
 }
 
-.header-phone {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--color-primary);
-}
-
-.header-phone:hover,
-.header-phone:focus {
-    color: var(--color-hover-link);
-}
 
 /* HERO SECTION */
 
@@ -219,6 +199,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: var(--color-secondary);
 }
 
 .portfolio-text {
