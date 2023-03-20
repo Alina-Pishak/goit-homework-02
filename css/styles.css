@@ -58,12 +58,13 @@ body {
     color: var(--color-hover-link);
 }
 
-
+.header-adress {
+    font-style: normal;
+}
 .header-contact {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    font-style: normal;
     color: var(--color-primary);
 }
 
